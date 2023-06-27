@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&family=Montserrat:wght@400;500&family=Open+Sans&family=Poppins:wght@300&family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --primary-color: #0e1525;
+  --secondary-color: #1b2231;
+  --primary-text: #fff;
+  --secondary-text: #0079f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--primary-text);
+  background-color: var(--primary-color);
+}
+
+/* a {
+  color: var(--primary-text);
+}
+a:hover {
+  color: var(--secondary-text);
+} */
