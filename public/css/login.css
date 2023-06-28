@@ -3,8 +3,7 @@
 :root {
   --primary-color: #0e1525;
   --secondary-color: #1b2231;
-  --primary-text: #fff;
-  --secondary-text: rgb(4, 21, 202);
+  --primary-text: rgb(4, 21, 202);
   --hover-text: rgb(11, 28, 207);
 }
 
@@ -21,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  color: var(--primary-text);
+  color: white;
   background-color: var(--primary-color);
 }
 
@@ -90,7 +89,7 @@ body {
 
 .forgot a {
   font-size: 14.5px;
-  color: var(--secondary-text);
+  color: var(--primary-text);
   text-decoration: none;
 }
 
