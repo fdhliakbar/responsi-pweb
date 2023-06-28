@@ -39,7 +39,6 @@ body {
 .container .login-box {
   position: relative;
   width: 100%;
-  /* background-color: var(--secondary-color); */
 }
 
 .page-box .login-title {
@@ -97,4 +96,32 @@ body {
 .forgot a:hover {
   text-decoration: underline;
   color: var(--hover-text);
+}
+
+.guest-mode {
+  margin: 40px 0;
+}
+
+.guest-mode p {
+  font-size: 14 5px;
+  color: white;
+}
+
+.guest-mode a {
+  font-size: 14.5px;
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+.guest-mode a:hover {
+  text-decoration: underline;
+}
+.btn-box a {
+  font-size: 14.5px;
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+.btn-box a:hover {
+  text-decoration: underline;
 }
