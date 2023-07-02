@@ -25,12 +25,12 @@ Website delivery ordering adalah jenis situs web yang memungkinkan pengguna untu
 
 ## Kontribusi
 
-Kami terbuka untuk kontribusi dari komunitas. Jika Anda ingin berkontribusi pada pengembangan platform Website Delivery Ordering, silakan ikuti langkah-langkah berikut:
+Jika Anda ingin berkontribusi pada pengembangan platform Website Delivery Ordering, silakan ikuti langkah-langkah berikut:
 
-Fork repositori ini.
-Buat branch baru dengan fitur/peningkatan yang ingin Anda tambahkan.
-Lakukan perubahan yang diperlukan dan buat komit yang jelas untuk setiap perubahan.
-Ajukan pull request ke branch utama kami.
+1. Fork repositori ini : `git clone https://github.com/fdhliakbar/pweb-project.git`
+2. Buat **branch** baru dengan _fitur/peningkatan_ yang ingin Anda tambahkan.
+3. Lakukan perubahan yang diperlukan dan buat **commit** yang jelas untuk setiap perubahan.
+4. Ajukan pull request ke **branch** utama kami.
 
 ## Kontak
 
