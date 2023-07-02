@@ -39,5 +39,5 @@ Jika Anda memiliki pertanyaan atau saran terkait platform Website Delivery Order
 ## Terima Kasih
 
 <p align="center">
-    <img src="https://github.com/fdhliakbar/pweb-project/assets/104522615/ddd24761-6826-4a90-96ec-8fd40026cf85" alt="footer gif">
+    <img src="https://github.com/fdhliakbar/pweb-project/assets/104522615/2a102bd3-7a8c-4578-b649-382b813ff9b0" alt="footer gif">
 </p>
