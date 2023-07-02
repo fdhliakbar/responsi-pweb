@@ -34,7 +34,7 @@ Jika Anda ingin berkontribusi pada pengembangan platform Website Delivery Orderi
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan atau saran terkait platform Website Delivery Ordering, jangan ragu untuk menghubungi tim pengembang melalui email di contact @fadhliakbar125@gmail.com
+Jika Anda memiliki pertanyaan atau saran terkait platform Website Delivery Ordering, jangan ragu untuk menghubungi tim pengembang melalui email di contact fadhliakbar125@gmail.com
 
 ## FAQ
 
