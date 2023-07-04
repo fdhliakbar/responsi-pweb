@@ -22,8 +22,8 @@
     ?>
     <!-- Navbar end -->
 
+
     <!-- Footer start -->
-    <?php include './database/footer.php'; ?>
     <!--  Footer end -->
 
     <body>
