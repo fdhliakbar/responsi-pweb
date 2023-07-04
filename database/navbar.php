@@ -16,14 +16,14 @@
 
 <body>
     <nav class="navbar">
-        <a href="#" class="navbar-logo">Gomu <span>No Mi</span></a>
+        <a href="./index.php" class="navbar-logo">Gomu <span>No Mi</span></a>
 
         <div class="navbar-nav">
             <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="#menu">Menu</a>
             <a href="#contact">Contact</a>
-            <a href="#login">Login</a>
+            <a href="./login.php">Login</a>
         </div>
 
         <div class="navbar-extra">
