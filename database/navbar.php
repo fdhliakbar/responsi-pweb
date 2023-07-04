@@ -23,7 +23,7 @@
             <a href="#about">About</a>
             <a href="#menu">Menu</a>
             <a href="#contact">Contact</a>
-            <a href="./login.php">Login</a>
+            <a href="./login_register.php">Login</a>
         </div>
 
         <div class="navbar-extra">
