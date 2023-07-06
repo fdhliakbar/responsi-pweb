@@ -299,13 +299,18 @@ body {
 .menu .row .menu-card {
   text-align: center;
   padding-bottom: 4rem;
-  margin-right: 2rem;
+  margin-right: 2.8rem;
 }
 
 .menu-card img {
   border-radius: 50%;
-  height: 140px;
-  width: 140px;
+  height: 180px;
+  width: 180px;
+  filter: grayscale(82%);
+}
+
+.menu-card img:hover {
+  filter: grayscale(0);
 }
 
 .menu .row .menu-card .menu-card-title {
