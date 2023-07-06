@@ -39,7 +39,7 @@
 
         <div class="row">
             <div class="about-img">
-                <img src="components/assets/image/food.jpg" alt="About us" />
+                <img src="components/assets/image/about.webp" alt="About us" />
             </div>
             <div class="content">
                 <h3>Mengapa Produk Kami?</h3>

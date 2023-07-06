@@ -22,9 +22,9 @@
             <p class="menu-card-price">IDR 20K</p>
         </div>
         <div class="menu-card">
-            <img src="components/assets/image/food1.jpg" alt="Sushi" class="menu-card-img" />
-            <h3 class="menu-card-title">- Sushi -</h3>
-            <p class="menu-card-price">IDR 80K</p>
+            <img src="components/assets/image/food1.jpg" alt="Onigiri" class="menu-card-img" />
+            <h3 class="menu-card-title">- Onigiri -</h3>
+            <p class="menu-card-price">IDR 18K</p>
         </div>
         <div class="menu-card">
             <img src="components/assets/image/menu5.jpg" alt="Takoyaki" class="menu-card-img" />
