@@ -4,6 +4,13 @@ $username = "root";
 $password = "";
 $dbname = "db_user";
 
-$koneksi = mysqli_connect("localhost", "root", "", "db_user");
+$conn = new mysqli($servername, $username, $password, $dbname);
 
+if ($conn->connect_error) {
+    die("Koneksi ke database gagal: " . $conn->connect_error);
+} else {
+    echo"berhasil";
+}
+
+$conn->close();
 ?>

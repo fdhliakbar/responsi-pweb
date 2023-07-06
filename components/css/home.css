@@ -299,11 +299,13 @@ body {
 .menu .row .menu-card {
   text-align: center;
   padding-bottom: 4rem;
+  margin-right: 2rem;
 }
 
-.menu .row .menu-card img {
+.menu-card img {
   border-radius: 50%;
-  width: 80%;
+  height: 140px;
+  width: 140px;
 }
 
 .menu .row .menu-card .menu-card-title {

@@ -23,7 +23,7 @@
     <div class="container"></div>
     <div class="form-login">
         <h1>Register Form</h1>
-        <form id="loginForm" action="./database/koneksi.php" method="post" autocomplete="off">
+        <form id="loginForm" action="./database/insert_data.php" method="post" autocomplete="off">
             <div class="input-form">
                 <input type="text" name="username" id="username" placeholder="Name" autofocus required minlength="3"
                     maxlength="120" oninvalid="this.setCustomValidity('Nama wajib di isi')"
@@ -37,7 +37,7 @@
                 <input type="password" name="password" id="password" placeholder="Password" required />
             </div>
             <div class="center-btn">
-                <button class="custom-btn" type="submit">Login</button>
+                <button class="custom-btn" type="submit">Register</button>
             </div>
         </form>
         <div class="register">
@@ -45,25 +45,6 @@
             <a href="./login.php">Login</a>
         </div>
     </div>
-
-    <?php
-// Mengambil nilai input dari form
-if (isset($_POST['username']) && isset($_POST['email']) && isset($_POST['password'])) {
-    $username = $_POST['username'];
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-
-    // Menyimpan nilai input ke dalam tabel MySQL
-    $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
-
-    if ($conn->query($sql) === TRUE) {
-        echo "Registrasi berhasil";
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-}
-?>
-
 
     <!-- Feather icons -->
     <script>
