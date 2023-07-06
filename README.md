@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Website Delivery Ordering
+=======
+## Deskripsi
+>>>>>>> 983ba2f0951fb91a61ec0dcd85c37ba228ce1ddc
 
 Website delivery ordering adalah jenis situs web yang memungkinkan pengguna untuk memesan makanan atau produk lain secara online dan mengirimkannya ke lokasi yang diinginkan. Situs web ini berfungsi sebagai platform antara pelanggan dan penyedia layanan, seperti restoran, toko kelontong, atau bisnis lain yang menawarkan layanan pengiriman.
 
