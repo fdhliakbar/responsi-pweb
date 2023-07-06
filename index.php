@@ -10,16 +10,13 @@
     <link rel="shortcut icon" href="components/assets/image/logo/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="./components/css/home.css" />
     <script src="https://unpkg.com/feather-icons"></script>
-    <script defer src="./components/js/scroll.js"></script>
+    <link rel="stylesheet" href="components/home/home.css" />
 </head>
 
 <body>
     <!-- Navbar start -->
-    <?php
-    include './database/navbar.php';
-    ?>
+    <?php include './navbar.php' ?>
     <!-- Navbar end -->
 
     <!-- Hero Section start -->
@@ -46,7 +43,7 @@
                 <img src="components/assets/image/food.jpg" alt="About us" />
             </div>
             <div class="content">
-                <h3>Why choose our product?</h3>
+                <h3>Product</h3>
                 <p>
                     the answer is because all the ingredients are fresh, every day new
                     ingredients, new fish from the sea, fresh vegetables picked from the
@@ -63,7 +60,7 @@
 
     <!-- Menu Section start -->
     <section id="menu" class="menu">
-        <h2><span>Our</span> Menu</h2>
+        <h2>Menu</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita,
             repellendus numquam quam tempora voluptatum.
@@ -106,7 +103,7 @@
 
     <!-- Products Section start -->
     <section class="products" id="products">
-        <h2><span>Our Superior</span> Product</h2>
+        <h2><span>Superior</span> Product</h2>
         <div class="row">
             <div class="product-card">
                 <div class="product-icons">
@@ -175,7 +172,8 @@
     <!-- Contact Section start -->
     <section id="contact" class="contact">
         <h2><span>Contact</span> Us</h2>
-        <p>If you are interested can visit contact us.</p>
+        <a href=""></a>
+        <p>If you are interested can visit <a href="https://wa.me/6281379024149" target="_blank">contact us.</a></p>
 
         <div class="row">
             <iframe
@@ -206,7 +204,7 @@
     <!-- Contact Section end -->
 
     <!-- Footer start -->
-    <?php include './database/footer.php'; ?>
+    <?php include './footer.php' ?>
     <!-- Footer end -->
 
     <!-- Modal Box Item Detail start -->
@@ -244,7 +242,7 @@
     </script>
 
     <!-- Javascript file -->
-    <script src="./components/js/home.js"></script>
+    <script src="components/home/home.js"></script>
 </body>
 
 </html>
