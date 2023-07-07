@@ -34,7 +34,9 @@
                     oninvalid="this.setCustomValidity('Masukkan email anda')" oninput="this.setCustomValidity('')" />
             </div>
             <div class="input-form">
-                <input type="password" name="password" id="password" placeholder="Password" required />
+                <input type="password" name="password" id="password" placeholder="Password" required minlength="8"
+                    maxLength="50" oninvalid="this.setCustomValidity('Password minimal 8 kata')"
+                    oninput="this.setCustomValidity('')" />
             </div>
             <div class="center-btn">
                 <button class="custom-btn" type="submit">Register</button>
