@@ -10,16 +10,13 @@
     <link rel="shortcut icon" href="components/assets/image/logo/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="./components/css/home.css" />
     <script src="https://unpkg.com/feather-icons"></script>
-    <script defer src="./components/js/scroll.js"></script>
+    <link rel="stylesheet" href="./components/css/home.css" />
 </head>
 
 <body>
     <!-- Navbar start -->
-    <?php
-    include './database/navbar.php';
-    ?>
+    <?php include './navbar.php' ?>
     <!-- Navbar end -->
 
     <!-- Hero Section start -->
@@ -29,8 +26,7 @@
                 Japanese Food And Grocery Delivery Service In <span>Indonesia</span>
             </h1>
             <p>
-                We provide food and ingredients directly from japan. To maintain
-                quality and taste.
+                Kami menyediakan makanan dan bahan langsung dari Jepang. Untuk menjaga kualitas dan rasa.
             </p>
             <a href="#" class="cta">Buy now</a>
         </main>
@@ -39,143 +35,37 @@
 
     <!-- About Section start -->
     <section id="about" class="about">
-        <h2><span>About</span> Us</h2>
+        <h2><span>About</span></h2>
 
         <div class="row">
             <div class="about-img">
-                <img src="components/assets/image/food.jpg" alt="About us" />
+                <img src="components/assets/image/about.webp" alt="About us" />
             </div>
             <div class="content">
-                <h3>Why choose our product?</h3>
+                <h3>Mengapa Produk Kami?</h3>
                 <p>
-                    the answer is because all the ingredients are fresh, every day new
-                    ingredients, new fish from the sea, fresh vegetables picked from the
-                    farm and so on. If you don't run out, throw it out at midnight.
+                    Alasan mengapa produk buatan kami bisa bersaing dengan produk lain, karena semua bahan yang kami
+                    gunakan itu segar di ambil langsung dari pertanian sekitar dan sebagian impor dari jepang yang telah
+                    memenuhi standar pengiriman.
                 </p>
                 <p>
-                    This is what makes our products able to compete with other classy
-                    foods.
+                    Inilah yang membuat produk kami mampu bersaing dengan makanan berkelas lainnya.
                 </p>
             </div>
         </div>
     </section>
     <!-- About Section end -->
 
-    <!-- Menu Section start -->
-    <section id="menu" class="menu">
-        <h2><span>Our</span> Menu</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita,
-            repellendus numquam quam tempora voluptatum.
-        </p>
-
-        <div class="row">
-            <div class="menu-card">
-                <img src="components/assets/image/food1.jpg" alt="Sushi" class="menu-card-img" />
-                <h3 class="menu-card-title">- Sushi -</h3>
-                <p class="menu-card-price">IDR 200K</p>
-            </div>
-            <div class="menu-card">
-                <img src="components/assets/image/food1.jpg" alt="Sushi" class="menu-card-img" />
-                <h3 class="menu-card-title">- Sushi -</h3>
-                <p class="menu-card-price">IDR 200K</p>
-            </div>
-            <div class="menu-card">
-                <img src="components/assets/image/food1.jpg" alt="Sushi" class="menu-card-img" />
-                <h3 class="menu-card-title">- Sushi -</h3>
-                <p class="menu-card-price">IDR 200K</p>
-            </div>
-            <div class="menu-card">
-                <img src="components/assets/image/food1.jpg" alt="Sushi" class="menu-card-img" />
-                <h3 class="menu-card-title">- Sushi -</h3>
-                <p class="menu-card-price">IDR 200K</p>
-            </div>
-            <div class="menu-card">
-                <img src="components/assets/image/food1.jpg" alt="Sushi" class="menu-card-img" />
-                <h3 class="menu-card-title">- Sushi -</h3>
-                <p class="menu-card-price">IDR 200K</p>
-            </div>
-            <div class="menu-card">
-                <img src="components/assets/image/food1.jpg" alt="Sushi" class="menu-card-img" />
-                <h3 class="menu-card-title">- Sushi -</h3>
-                <p class="menu-card-price">IDR 200K</p>
-            </div>
-        </div>
-    </section>
-    <!-- Menu Section end -->
-
-    <!-- Products Section start -->
-    <section class="products" id="products">
-        <h2><span>Our Superior</span> Product</h2>
-        <div class="row">
-            <div class="product-card">
-                <div class="product-icons">
-                    <a href="#"><i data-feather="shopping-cart"></i></a>
-                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
-                </div>
-                <div class="product-image">
-                    <img src="components/assets/image/food2.jpg" alt="Product 1" />
-                </div>
-                <div class="product-content">
-                    <h3>Matcha tea</h3>
-                    <div class="product-stars">
-                        <i data-feather="star" class="star-full"></i>
-                        <i data-feather="star" class="star-full"></i>
-                        <i data-feather="star" class="star-full"></i>
-                        <i data-feather="star" class="star-full"></i>
-                        <i data-feather="star"></i>
-                    </div>
-                    <div class="product-price">IDR 30K <span>IDR 55K</span></div>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-icons">
-                    <a href="#"><i data-feather="shopping-cart"></i></a>
-                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
-                </div>
-                <div class="product-image">
-                    <img src="components/assets/image/food2.jpg" alt="Product 1" />
-                </div>
-                <div class="product-content">
-                    <h3>Matcha tea</h3>
-                    <div class="product-stars">
-                        <i data-feather="star"></i>
-                        <i data-feather="star"></i>
-                        <i data-feather="star"></i>
-                        <i data-feather="star"></i>
-                        <i data-feather="star"></i>
-                    </div>
-                    <div class="product-price">IDR 30K <span>IDR 55K</span></div>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-icons">
-                    <a href="#"><i data-feather="shopping-cart"></i></a>
-                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
-                </div>
-                <div class="product-image">
-                    <img src="components/assets/image/food2.jpg" alt="Product 1" />
-                </div>
-                <div class="product-content">
-                    <h3>Matcha tea</h3>
-                    <div class="product-stars">
-                        <i data-feather="star"></i>
-                        <i data-feather="star"></i>
-                        <i data-feather="star"></i>
-                        <i data-feather="star"></i>
-                        <i data-feather="star"></i>
-                    </div>
-                    <div class="product-price">IDR 30K <span>IDR 55K</span></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Products Section end -->
+    <!-- Menu Section & Product Top Start -->
+    <?php include './menu.php' ?>
+    <!-- Menu Section & Product Top End -->
 
     <!-- Contact Section start -->
     <section id="contact" class="contact">
-        <h2><span>Contact</span> Us</h2>
-        <p>If you are interested can visit contact us.</p>
+        <h2><span>Kontak</span> Kami</h2>
+        <a href=""></a>
+        <p>jika kamu merasa tertarik kamu bisa mengunjungi <a href="https://wa.me/6281379024149" target="_blank">kontak
+                kami</a></p>
 
         <div class="row">
             <iframe
@@ -199,14 +89,14 @@
                     <input id="phone-number" name="phone-number" type="text" placeholder="phone number" />
                     <div class="error"></div>
                 </div>
-                <button type="submit" class="btn">Send Message</button>
+                <button type="submit" class="btn">Kirim Pesan</button>
             </form>
         </div>
     </section>
     <!-- Contact Section end -->
 
     <!-- Footer start -->
-    <?php include './database/footer.php'; ?>
+    <?php include './footer.php' ?>
     <!-- Footer end -->
 
     <!-- Modal Box Item Detail start -->
