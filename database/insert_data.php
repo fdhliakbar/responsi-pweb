@@ -6,14 +6,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    // Perform basic form validation
     if (empty($username) || empty($email) || empty($password)) {
         echo "Harap lengkapi semua kolom.";
     } else {
-        // Create SQL query
         $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
 
-        // Execute the query
+
         if ($conn->query($sql) === TRUE) {
             echo "Registrasi berhasil!";
         } else {

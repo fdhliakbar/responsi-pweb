@@ -23,7 +23,7 @@
     <div class="container"></div>
     <div class="form-login">
         <h1>Login Form</h1>
-        <form id="loginForm" action="process_login.php" method="post" autocomplete="off">
+        <form id="loginForm" action="./database/process_login.php" method="post" autocomplete="off">
             <div class="input-form">
                 <input type="text" name="username" id="username" placeholder="Name" autofocus requires minLength="3"
                     maxLength="120" oninvalid="this.setCustomValidity('Wajib di isi mas')"
@@ -42,6 +42,11 @@
         </div>
     </div>
 
+    <script>
+    document.getElementById("loginForm").addEventListener("submit", function() {
+        window.location.href = "index.php";
+    });
+    </script>
 
 
 

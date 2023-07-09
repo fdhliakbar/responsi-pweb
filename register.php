@@ -23,6 +23,7 @@
     <div class="container"></div>
     <div class="form-login">
         <h1>Register Form</h1>
+        <?php include './database/db.php'; ?>
         <form id="loginForm" action="./database/insert_data.php" method="post" autocomplete="off">
             <div class="input-form">
                 <input type="text" name="username" id="username" placeholder="Name" autofocus required minlength="3"
