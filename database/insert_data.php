@@ -11,9 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
 
-
         if ($conn->query($sql) === TRUE) {
-            echo "Registrasi berhasil!";
+            header("Location: ../index.php");
+            exit();
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
