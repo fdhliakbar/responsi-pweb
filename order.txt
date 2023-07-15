@@ -1,4 +1,0 @@
-Nama: 1
-jumlah: 3
-Nama produk yang dibeli: aa
-

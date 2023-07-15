@@ -225,9 +225,13 @@ form input[type="submit"] {
   border-radius: 4px;
 }
 
+.btn-submit {
+  background-color: #0079f2;
+}
+
 form input[type="submit"] {
-  background-color: #4caf50;
-  color: #fff;
+  background-color: var(--secondary-text);
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -235,7 +239,7 @@ form input[type="submit"] {
 
 /* Footer */
 footer {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-text);
   text-align: center;
   padding: 1rem 0 3rem;
   margin-top: 3rem;
@@ -252,7 +256,7 @@ footer .socials a {
 
 footer .socials a:hover,
 footer .links a:hover {
-  color: var(--bg);
+  color: white;
 }
 
 footer .links {
@@ -269,7 +273,7 @@ footer .credit {
 }
 
 footer .credit a {
-  color: var(--bg);
+  color: var(--secondary-text);
   font-weight: 700;
 }
 
