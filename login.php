@@ -42,19 +42,6 @@
         </div>
     </div>
 
-    <script>
-    document.getElementById("loginForm").addEventListener("submit", function() {
-        window.location.href = "index.php";
-    });
-    </script>
-
-
-
-    <!-- Feather icons -->
-    <script>
-    feather.replace();
-    </script>
-
 
     <script src="./components/js/login.js"></script>
 </body>
