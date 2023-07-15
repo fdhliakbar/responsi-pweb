@@ -62,6 +62,7 @@ nav {
 }
 
 .burger {
+  z-index: 10;
   display: none;
   cursor: pointer;
 }
@@ -170,8 +171,8 @@ nav {
 }
 
 .item img {
-  width: 100%;
-  height: auto;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -187,6 +188,50 @@ nav {
   color: white;
   margin-bottom: 20px;
 }
+
+/* start buy */
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.bg-buy {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* end buy */
 
 /* Footer */
 footer {
@@ -264,10 +309,13 @@ footer .credit a {
   .slide {
     background-position: top;
   }
-}
-
-.nav-active {
-  transform: translateX(0%);
+  .nav-active {
+    transform: translateX(0%);
+  }
+  form {
+    max-width: 100%;
+    padding: 10px;
+  }
 }
 
 @keyframes navLinkFade {
