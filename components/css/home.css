@@ -89,7 +89,7 @@ nav {
   width: 80%;
   height: 80%;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   margin: auto;
 }
 
@@ -105,7 +105,7 @@ nav {
 }
 
 .slide1 {
-  background-image: url("../assets/image/hero.png");
+  background-image: url("../assets/image/");
 }
 
 .slide2 {

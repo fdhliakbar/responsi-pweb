@@ -50,3 +50,4 @@ prevBtn.addEventListener("click", () => {
 nextBtn.addEventListener("click", () => {
   changeSlide(1);
 });
+slides[currentSlide].classList.add("active");
